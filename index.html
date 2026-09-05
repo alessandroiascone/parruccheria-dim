@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#c40000" />
+  <meta name="description" content="Parruccheria DIM a Marano di Napoli. Vetrina digitale premium con lookbook orizzontale, servizi, mappa e prenotazione WhatsApp." />
+  <meta property="og:title" content="Parruccheria DIM | Marano di Napoli" />
+  <meta property="og:description" content="Tagli donna eleganti, ispirazioni glamour e contatto diretto su WhatsApp." />
+  <meta property="og:type" content="website" />
+  <title>Parruccheria DIM | Marano di Napoli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Italiana&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Parruccheria DIM home">
+      <img src="logo-dim.png" alt="Logo Parruccheria DIM" class="brand-logo" />
+      <span class="brand-text">
+        <strong>DIM</strong>
+        <small>Parruccheria</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navigazione principale">
+      <a href="#lookbook">Lookbook</a>
+      <a href="#servizi">Servizi</a>
+      <a href="#experience">Perché DIM</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+
+    <a class="header-cta" href="https://wa.me/393384671019?text=Ciao%2C%20vorrei%20prenotare%20un%20appuntamento%20da%20Parruccheria%20DIM." target="_blank" rel="noopener">Prenota ora</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media"><img src="look-01-butterfly-cut.png" alt="Look donna Parruccheria DIM" /></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-shell section-shell">
+        <div class="hero-content reveal">
+          <p class="eyebrow">VIA CASALANNO 36BIS · MARANO DI NAPOLI · WHATSAPP DIRETTO</p>
+          <h1 id="hero-title">Il taglio giusto.<br><em>Lo stile pure.</em></h1>
+          <p class="hero-copy">Vetrina digitale premium per Parruccheria DIM: immagini forti, lookbook laterale, servizi chiari e contatto immediato. Qui non si passeggia: qui si converte.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#lookbook">Scopri i look</a>
+            <a class="btn btn-glass" href="https://wa.me/393384671019?text=Ciao%2C%20vorrei%20una%20consulenza%20per%20scegliere%20il%20taglio%20pi%C3%B9%20adatto%20a%20me." target="_blank" rel="noopener">Consulenza WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="hero-side reveal">
+          <div class="hero-card brand-card">
+            <img src="logo-dim.png" alt="DIM logo" class="hero-logo" />
+            <span class="mini-kicker">LOOKBOOK DONNA</span>
+            <strong>Scorri, scegli, prenota.</strong>
+            <p>Tagli eleganti 2025/2026 con vibe glamour e navigazione orizzontale pensata per mobile.</p>
+          </div>
+          <div class="hero-mini-row">
+            <div class="mini-tile"><b>1</b><span>Lookbook laterale</span></div>
+            <div class="mini-tile"><b>2</b><span>CTA WhatsApp</span></div>
+            <div class="mini-tile"><b>3</b><span>Mappa e contatti</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights section-shell reveal" aria-label="Punti forti DIM">
+      <div><strong>Immagine premium</strong><span>Brand chiaro e forte</span></div>
+      <div><strong>Lookbook orizzontale</strong><span>Esperienza più moderna</span></div>
+      <div><strong>Consulenza rapida</strong><span>La cliente scrive subito</span></div>
+      <div><strong>Contatto diretto</strong><span>WhatsApp sempre a portata</span></div>
+    </section>
+
+    <section class="intro section-shell reveal" aria-labelledby="intro-title">
+      <div>
+        <p class="kicker">DIM SIGNATURE</p>
+        <h2 id="intro-title">Una presenza online<br>che sa il fatto suo.</h2>
+      </div>
+      <p>Ho spinto il sito verso una logica più da brand: meno caos, più percezione premium, più possibilità che la cliente si fermi davvero e scriva. Questo è il punto del gioco.</p>
+    </section>
+
+    <section class="lookbook section-shell" id="lookbook" aria-labelledby="lookbook-title">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">LOOKBOOK 25/26</p>
+          <h2 id="lookbook-title">Scorri in orizzontale.</h2>
+        </div>
+        <p class="section-note">Freccette desktop, swipe da smartphone. Molto più comodo così.</p>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Filtra i look per lunghezza">
+        <button class="filter active" data-filter="all">Tutti</button>
+        <button class="filter" data-filter="corto">Corti</button>
+        <button class="filter" data-filter="medio">Medi</button>
+        <button class="filter" data-filter="lungo">Lunghi</button>
+      </div>
+
+      <div class="carousel-actions reveal">
+        <button class="carousel-btn" id="look-prev" type="button" aria-label="Scorri a sinistra">←</button>
+        <button class="carousel-btn" id="look-next" type="button" aria-label="Scorri a destra">→</button>
+      </div>
+
+      <div class="looks-strip reveal" id="looks-strip">
+        <article class="look-card" data-category="lungo" data-look="Butterfly Cut">
+          <div class="look-photo"><img src="look-01-butterfly-cut.png" alt="Butterfly Cut" /><span class="trend-tag">TREND</span></div>
+          <div class="look-info">
+            <div><span class="look-number">01</span><h3>Butterfly Cut</h3></div>
+            <p class="look-muse">Ispirazione stile: <strong>Hailey Bieber vibe</strong></p>
+            <p>Scalature morbide, volume, leggerezza e presenza. Fa subito effetto wow senza essere eccessivo.</p>
+            <button class="choose-look" type="button">Scegli questo look <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="look-card" data-category="medio" data-look="Butterfly Bob">
+          <div class="look-photo"><img src="look-02-butterfly-bob.png" alt="Butterfly Bob" /><span class="trend-tag">NEW</span></div>
+          <div class="look-info">
+            <div><span class="look-number">02</span><h3>Butterfly Bob</h3></div>
+            <p class="look-muse">Ispirazione stile: <strong>Zendaya vibe</strong></p>
+            <p>Bob arioso e super attuale, con punte leggere e movimento sul viso. Uno di quelli che fotograficamente rende tantissimo.</p>
+            <button class="choose-look" type="button">Scegli questo look <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="look-card" data-category="medio" data-look="Bell Bob">
+          <div class="look-photo"><img src="look-03-bell-bob.png" alt="Bell Bob" /></div>
+          <div class="look-info">
+            <div><span class="look-number">03</span><h3>Bell Bob</h3></div>
+            <p class="look-muse">Ispirazione stile: <strong>Monica Bellucci vibe</strong></p>
+            <p>Compatto, elegante, definito. Pulito e chic: perfetto per chi vuole un’immagine curata ma forte.</p>
+            <button class="choose-look" type="button">Scegli questo look <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="look-card" data-category="lungo" data-look="Curtain Layers">
+          <div class="look-photo"><img src="look-04-curtain-layers.png" alt="Curtain Layers" /></div>
+          <div class="look-info">
+            <div><span class="look-number">04</span><h3>Curtain Layers</h3></div>
+            <p class="look-muse">Ispirazione stile: <strong>Dakota Johnson vibe</strong></p>
+            <p>Frangia a tendina e scalatura frontale. Molto richiesta perché addolcisce e incornicia bene il viso.</p>
+            <button class="choose-look" type="button">Scegli questo look <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="look-card" data-category="corto" data-look="Soft Pixie">
+          <div class="look-photo"><img src="look-05-soft-pixie.png" alt="Soft Pixie" /><span class="trend-tag">BOLD</span></div>
+          <div class="look-info">
+            <div><span class="look-number">05</span><h3>Soft Pixie</h3></div>
+            <p class="look-muse">Ispirazione stile: <strong>Emma Stone vibe</strong></p>
+            <p>Corto, deciso e femminile. Dice carattere senza diventare rigido o troppo estremo.</p>
+            <button class="choose-look" type="button">Scegli questo look <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="look-card" data-category="lungo" data-look="Glossy Long Layers">
+          <div class="look-photo"><img src="look-06-glossy-long-layers.png" alt="Glossy Long Layers" /></div>
+          <div class="look-info">
+            <div><span class="look-number">06</span><h3>Glossy Long Layers</h3></div>
+            <p class="look-muse">Ispirazione stile: <strong>Jennifer Lopez vibe</strong></p>
+            <p>Lunghezze lucide, onde morbide e finish da salone. Classico furbo: elegante, femminile, sempre vendibile.</p>
+            <button class="choose-look" type="button">Scegli questo look <span>↗</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="services section-shell" id="servizi" aria-labelledby="services-title">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">SERVIZI</p>
+          <h2 id="services-title">Più di un semplice taglio.</h2>
+        </div>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal"><span>01</span><h3>Taglio donna</h3><p>Studio della forma in base al viso, allo stile e alla gestibilità quotidiana.</p></article>
+        <article class="service-card reveal"><span>02</span><h3>Piega & styling</h3><p>Liscio, mosso, volume e finish elegante per completare il look.</p></article>
+        <article class="service-card reveal"><span>03</span><h3>Colore & schiariture</h3><p>Luce, profondità e sfumature per dare carattere e movimento.</p></article>
+        <article class="service-card reveal"><span>04</span><h3>Trattamenti</h3><p>Cura del capello, brillantezza e morbidezza visibile già dal primo colpo d’occhio.</p></article>
+      </div>
+    </section>
+
+    <section class="experience section-shell" id="experience" aria-labelledby="experience-title">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">PERCHÉ DIM</p>
+          <h2 id="experience-title">Zero attrito.<br>Tutta conversione.</h2>
+        </div>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-card reveal"><b>01</b><h3>Visual curati</h3><p>La prima impressione conta. Qui il salone si presenta bene, subito.</p></article>
+        <article class="experience-card reveal"><b>02</b><h3>Contatto facile</h3><p>Ogni sezione porta alla chat. Non ci sono strade complicate o moduli inutili.</p></article>
+        <article class="experience-card reveal"><b>03</b><h3>Uso mobile</h3><p>Da telefono è tutto più naturale: swipe, CTA grandi e azioni rapide.</p></article>
+      </div>
+    </section>
+
+    <section class="cta-band section-shell reveal" aria-labelledby="cta-title">
+      <div class="cta-copy">
+        <p class="kicker light">CONSULENZA LOOK</p>
+        <h2 id="cta-title">Non sai quale taglio scegliere?</h2>
+        <p>Mandaci una foto su WhatsApp e guidiamo la cliente verso il look più adatto. È il modo più semplice per chiudere appuntamenti anche con chi è indecisa.</p>
+      </div>
+      <a class="btn btn-milk" href="https://wa.me/393384671019?text=Ciao%2C%20vorrei%20una%20consulenza%20sul%20taglio.%20Posso%20inviarvi%20una%20mia%20foto%3F" target="_blank" rel="noopener">Apri WhatsApp ↗</a>
+    </section>
+
+    <section class="info section-shell" id="contatti" aria-labelledby="contact-title">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">INFO UTILI</p>
+          <h2 id="contact-title">Passa da DIM oppure scrivici.</h2>
+        </div>
+      </div>
+      <div class="info-grid">
+        <div class="contact-panel reveal">
+          <div class="contact-line">
+            <span>INDIRIZZO</span>
+            <strong>Via Casalanno 36bis<br>80016 Marano di Napoli (NA)</strong>
+            <a href="https://www.google.com/maps/search/?api=1&query=Via+Casalanno+36bis%2C+80016+Marano+di+Napoli+NA" target="_blank" rel="noopener">Apri Maps ↗</a>
+          </div>
+          <div class="contact-line">
+            <span>TELEFONO</span>
+            <strong>+39 338 467 1019</strong>
+            <a href="tel:+393384671019">Chiama ↗</a>
+          </div>
+          <div class="contact-line">
+            <span>WHATSAPP</span>
+            <strong>Prenotazioni e consulenze rapide</strong>
+            <a href="https://wa.me/393384671019?text=Ciao%2C%20vorrei%20prenotare%20un%20appuntamento%20da%20Parruccheria%20DIM." target="_blank" rel="noopener">Apri chat ↗</a>
+          </div>
+          <div class="contact-line muted-box">
+            <span>ORARI</span>
+            <strong>Martedì — Sabato<br>09:00 — 19:00 · Orario continuato</strong>
+            <small>Lunedì e domenica chiuso.</small>
+          </div>
+        </div>
+
+        <div class="map-panel reveal">
+          <iframe title="Mappa Parruccheria DIM" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Via%20Casalanno%2036bis%20Marano%20di%20Napoli&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section-shell" id="faq" aria-labelledby="faq-title">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">FAQ</p>
+          <h2 id="faq-title">Domande rapide.</h2>
+        </div>
+      </div>
+      <div class="faq-list reveal">
+        <details>
+          <summary>Posso prenotare direttamente su WhatsApp?</summary>
+          <p>Sì, ed è la via principale del sito. La cliente scrive, invia foto se vuole e fissa l’appuntamento.</p>
+        </details>
+        <details>
+          <summary>Posso chiedere consiglio prima di scegliere il taglio?</summary>
+          <p>Assolutamente sì. L’idea del sito è proprio aiutare chi è indecisa e trasformare il dubbio in prenotazione.</p>
+        </details>
+        <details>
+          <summary>I look del sito sono esempi?</summary>
+          <p>Sì, sono look di ispirazione per aiutare a capire stile, lunghezza e mood del risultato desiderato.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top">
+      <img src="logo-dim.png" alt="Logo Parruccheria DIM" class="brand-logo" />
+      <span class="brand-text"><strong>DIM</strong><small>Parruccheria</small></span>
+    </a>
+    <p>Via Casalanno 36bis · Marano di Napoli</p>
+    <p class="powered">Powered by <strong>ReLong Informatica</strong></p>
+  </footer>
+
+  <div class="mobile-bar" aria-label="Azioni rapide">
+    <a href="#lookbook">Scorri look</a>
+    <a class="mobile-wa" href="https://wa.me/393384671019?text=Ciao%2C%20vorrei%20prenotare%20un%20appuntamento%20da%20Parruccheria%20DIM." target="_blank" rel="noopener">Prenota ora</a>
+  </div>
+
+  <a class="floating-wa" href="https://wa.me/393384671019?text=Ciao%2C%20vorrei%20prenotare%20un%20appuntamento%20da%20Parruccheria%20DIM." target="_blank" rel="noopener" aria-label="Prenota su WhatsApp">WA</a>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Apertura WhatsApp…</div>
+  <script src="script.js"></script>
+</body>
+</html>
